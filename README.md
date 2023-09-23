@@ -50,8 +50,9 @@ pnpm -F @shaobc/test add @shaobc/test-share
 
 ```json
 {
-  "@shaobc/test-share": "workspace: ^"
+  "@shaobc/test-share": "workspace: *"
 }
+// 星号前加空格，否则在发包时失败还无原因提示
 ```
 
 14. 登录 npm
@@ -83,9 +84,6 @@ pnpm changeset publish
 # error an error occurred while publishing @shaobc/test:
 # error  '@shaobc/test@1.0.0' is not in this registry.
 # npm规定包名中，@后是用户名 或者是组织
-
-# workspace: * 如果子包有依赖，星号前加空格，否则在发包时失败也无原因提示
-
 pnpm changeset pre exit
 
 ```
