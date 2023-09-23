@@ -1,0 +1,12 @@
+src/*
+.git
+package.json
+pnpm-lock.yaml
+tsconfig.json
+
+node_modules/
+.idea
+.lh
+.history
+.vscode
+.DS_Store

@@ -1,0 +1,29 @@
+{
+    "name": "shao",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "description": "",
+    "scripts": {
+        "preinstall": "npx only-allow pnpm"
+    },
+    "engines": {
+        "node": ">=16"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shaobeichen/shao.git"
+    },
+    "keywords": [
+        "shao"
+    ],
+    "author": "shaobeichen",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shaobeichen/shao/issues"
+    },
+    "homepage": "https://github.com/shaobeichen/shao#readme",
+    "devDependencies": {
+        "@changesets/cli": "^2.26.2"
+    }
+}
