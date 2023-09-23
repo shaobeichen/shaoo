@@ -12,7 +12,7 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm"
   },
-  // 防止最外层包被发布出去，设为true以后发布时会提醒你不给发
+  // 防止最外层包被发布出去，设为true以后发布时会提醒你
   "private": true,
   "engines": {
     "node": ">=16"
