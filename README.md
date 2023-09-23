@@ -62,10 +62,12 @@ pnpm changeset init
 pnpm changeset
 # major minor patch
 # 1.0.0
-npx changeset version
+pnpm changeset version
 npm login
 pnpm changeset publish
 # error an error occurred while publishing @shaobc/test:
 # error  '@shaobc/test@1.0.0' is not in this registry.
-# npm规定包名中，@后是用户名
+# npm规定包名中，@后是用户名 或者是组织
+
+# workspace: * 如果子包有依赖，星号前加空格，否则在发包时失败也无原因提示
 ```
