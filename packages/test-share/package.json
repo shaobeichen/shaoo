@@ -15,15 +15,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/shaobeichen/shao.git"
+        "url": "git+https://github.com/shaobeichen/shaobc.git"
     },
     "keywords": [
-        "shao"
+        "shaobc"
     ],
     "author": "shaobeichen",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/shaobeichen/shao/issues"
+        "url": "https://github.com/shaobeichen/shaobc/issues"
     },
-    "homepage": "https://github.com/shaobeichen/shao#readme"
+    "homepage": "https://github.com/shaobeichen/shaobc#readme"
 }
