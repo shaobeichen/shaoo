@@ -1,5 +1,5 @@
 {
-    "name": "shaobc",
+    "name": "shaoo",
     "version": "1.0.0",
     "private": true,
     "type": "module",
@@ -12,17 +12,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/shaobeichen/shaobc.git"
+        "url": "git+https://github.com/shaobeichen/shaoo.git"
     },
     "keywords": [
-        "shaobc"
+        "shaoo"
     ],
     "author": "shaobeichen",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/shaobeichen/shaobc/issues"
+        "url": "https://github.com/shaobeichen/shaoo/issues"
     },
-    "homepage": "https://github.com/shaobeichen/shaobc#readme",
+    "homepage": "https://github.com/shaobeichen/shaoo#readme",
     "devDependencies": {
         "@changesets/cli": "^2.26.2"
     }

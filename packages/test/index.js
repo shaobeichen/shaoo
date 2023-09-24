@@ -1,3 +1,3 @@
-import warn from '@shaobc/test-share'
+import warn from '@shaoo/test-share'
 
 warn()

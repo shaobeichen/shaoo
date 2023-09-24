@@ -1,4 +1,4 @@
-# shaobc
+# shaoo
 
 1. 安装 pnpm
 2. npm init
@@ -25,32 +25,34 @@
 ```bash
 packages:
   - 'packages/**'
-  - "components/**"
 ```
 
-5. 添加.npmrc
+5. 添加 packages 文件夹
+6. 添加一个子包 test-share
+7. 进入子包 pnpm init
+8. 修改 package.json
 
-```bash
-shamefully-hoist=true
-strict-peer-dependencies=false
+```json
+{
+  "publishConfig": {
+    "access": "public"
+  }
+}
 ```
 
-6. 添加 packages 文件夹
-7. 添加一个子包 test-share
-8. 进入子包 pnpm init
-9. 子包名叫 @shaobc/test-share
+9. 子包名叫 @shaoo/test-share
 10. 添加一个子包 test
-11. 进入子包 pnpm init
-12. 子包名叫 @shaobc/test
+11. 进入子包 pnpm init 同时修改 package.json
+12. 子包名叫 @shaoo/test
 13. test 里添加依赖
 
 ```bash
-pnpm -F @shaobc/test add @shaobc/test-share
+pnpm -F @shaoo/test add @shaoo/test-share
 ```
 
 ```json
 {
-  "@shaobc/test-share": "workspace: *"
+  "@shaoo/test-share": "workspace: *"
 }
 // 星号前加空格，否则在发包时失败还无原因提示
 ```
@@ -81,8 +83,8 @@ pnpm changeset
 # 1.0.0
 pnpm changeset version
 pnpm changeset publish
-# error an error occurred while publishing @shaobc/test:
-# error  '@shaobc/test@1.0.0' is not in this registry.
+# error an error occurred while publishing @shaoo/test:
+# error  '@shaoo/test@1.0.0' is not in this registry.
 # npm规定包名中，@后是用户名 或者是组织
 pnpm changeset pre exit
 

@@ -1,6 +1,6 @@
 {
-    "name": "@shaobc/test",
-    "version": "2.0.0",
+    "name": "@shaoo/test",
+    "version": "1.0.0",
     "description": "",
     "type": "module",
     "main": "index.js",
@@ -15,18 +15,18 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/shaobeichen/shaobc.git"
+        "url": "git+https://github.com/shaobeichen/shaoo.git"
     },
     "keywords": [
-        "shaobc"
+        "shaoo"
     ],
     "author": "shaobeichen",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/shaobeichen/shaobc/issues"
+        "url": "https://github.com/shaobeichen/shaoo/issues"
     },
-    "homepage": "https://github.com/shaobeichen/shaobc#readme",
+    "homepage": "https://github.com/shaobeichen/shaoo#readme",
     "dependencies": {
-        "@shaobc/test-share": "workspace: *"
+        "@shaoo/test-share": "workspace: *"
     }
 }
