@@ -4,7 +4,7 @@
 2. npm init
 3. 修改 package.json, 包管理器限制
 
-```json
+```
 {
   // 只允许使用pnpm来开发
   // preinstall: 在install之前（首次）执行
@@ -50,7 +50,7 @@ packages:
 pnpm -F @shaoo/test add @shaoo/test-share
 ```
 
-```json
+```
 {
   "@shaoo/test-share": "workspace: *"
 }
