@@ -1,6 +1,6 @@
 {
     "name": "@shaoo/test",
-    "version": "1.2.0",
+    "version": "1.2.2",
     "description": "",
     "type": "module",
     "main": "index.js",
@@ -28,6 +28,6 @@
     },
     "homepage": "https://github.com/shaobeichen/shaoo#readme",
     "dependencies": {
-        "@shaoo/test-share": "workspace: *"
+        "@shaoo/test-share": "workspace:*"
     }
 }

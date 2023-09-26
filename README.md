@@ -52,9 +52,8 @@ pnpm -F @shaoo/test add @shaoo/test-share
 
 ```
 {
-  "@shaoo/test-share": "workspace: *"
+  "@shaoo/test-share": "workspace:*"
 }
-// 星号前加空格，否则在发包时失败还无原因提示
 ```
 
 14. 登录 npm

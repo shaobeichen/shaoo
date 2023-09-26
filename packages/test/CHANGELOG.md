@@ -1,5 +1,11 @@
 # @shaoo/test
 
+## 1.2.2
+
+### Patch Changes
+
+- test
+
 ## 1.2.0
 
 ### Minor Changes
