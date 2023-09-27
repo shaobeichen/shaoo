@@ -4,8 +4,8 @@
 
 ```bash
 pnpm install
-pnpm run dev
-pnpm run build
+pnpm dev
+pnpm build
 ```
 
 ## 注意
