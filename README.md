@@ -96,3 +96,14 @@ pnpm changeset
 pnpm changeset version
 pnpm changeset publish
 ```
+
+
+## 注意事项
+
+pnpm v9 
+如果pnpm add 一直从远程下载，不在本地找依赖，在项目根目录下新建.npmrc文件并写入，
+
+link-workspace-packages=true
+
+然后检查你的pnpm-workspace.ymal 文件，把/*改为/**
+
